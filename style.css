@@ -1,0 +1,64 @@
+.cotainer, .header, .banner, .menu-bar, .main, footer{
+    width: 100%;
+}
+
+.menu-bar{
+    background-color: black;
+}
+
+.menu-bar ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-bar ul li{
+    color: white;
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.menu-bar ul.left li {
+    padding-right: 15px;
+    padding-left:15px;
+    border-right: solid white 1px;
+}
+
+.menu-bar ul.left li:hover {
+    background-color: white;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.menu-bar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-bar .right {
+    padding: 0px;
+    margin-top: 0px;
+    position: absolute;
+    left: 85%;
+}
+
+.menu-bar .right input, button {
+    font-size: 22px;
+}
+
+h1{
+    color: #063970;
+    text-align: center;
+
+}
+
+th, td {
+    align-items: center;
+    width:20%;
+}
